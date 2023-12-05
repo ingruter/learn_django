@@ -15,3 +15,9 @@ class Book(models.Model):
     def __str__(self):
         return self.title
 ```
+
+Apply Migrations:
+```bash
+    python manage.py makemigrations
+    python manage.py migrate
+```
